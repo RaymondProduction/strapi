@@ -106,5 +106,7 @@ coverage
 # Data Base
 ############################
 
-mongodb/diagnostic.data
-mongodb/journal
+mongodb
+
+#mongodb/diagnostic.data
+#mongodb/journal
