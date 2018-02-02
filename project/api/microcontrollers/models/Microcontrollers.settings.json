@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "microcontrollers",
+  "info": {
+    "name": "microcontrollers",
+    "description": ""
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Date of manufacture": {
+      "type": "date"
+    },
+    "Frequency": {
+      "type": "integer"
+    },
+    "RAM": {
+      "type": "integer"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "factory": {
+      "model": "factory",
+      "via": "Id"
+    }
+  }
+}

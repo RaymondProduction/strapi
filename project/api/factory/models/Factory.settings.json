@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "factory",
+    "description": "The factory is needed for grouping and systematized microcontrollers"
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "Id": {
+      "collection": "microcontrollers",
+      "via": "factory"
+    }
+  }
+}

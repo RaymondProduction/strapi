@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/microcontrollers",
+      "handler": "Microcontrollers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/microcontrollers/:_id",
+      "handler": "Microcontrollers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/microcontrollers",
+      "handler": "Microcontrollers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/microcontrollers/:_id",
+      "handler": "Microcontrollers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/microcontrollers/:_id",
+      "handler": "Microcontrollers.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
