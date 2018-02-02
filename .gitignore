@@ -101,3 +101,10 @@ project/node_modules
 
 testApp
 coverage
+
+############################
+# Data Base
+############################
+
+mongodb/diagnostic.data
+mongodb/journal
